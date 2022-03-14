@@ -1,18 +1,16 @@
-# vue-crash-2021
+# Task Tracker
 
 ## Project setup
 ```
 npm install
 ```
 
+### Run backend
+npm run backend
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Customize configuration
