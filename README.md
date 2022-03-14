@@ -6,7 +6,9 @@ npm install
 ```
 
 ### Run backend
+```
 npm run backend
+```
 
 ### Compiles and hot-reloads for development
 ```
