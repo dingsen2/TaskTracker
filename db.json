@@ -1,3 +1,16 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "text": "lunch",
+      "day": "tomorrow",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "fucku",
+      "day": "yesterday",
+      "reminder": false,
+      "id": 2
+    }
+  ]
 }

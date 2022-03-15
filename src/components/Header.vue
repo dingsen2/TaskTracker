@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1>{{ title }}</h1>
-        <Button @btn-click="$emit('btn-click')" :text="showBtn? 'close':'Add Task'" :color="showBtn? 'red' : 'green'"/>
+        <Button v-show="homePage" @btn-click="$emit('btn-click')" :text="showBtn? 'close':'Add Task'" :color="showBtn? 'red' : 'green'"/>
     </header>
     </template>
 
@@ -15,6 +15,16 @@
         },
         components: {
             Button,
+        },
+        computed: {
+            homePage() {
+                if(this.$route.path === '/') {
+                    return true
+                }
+                else{
+                    return false
+                }
+            }
         }
     }
 </script>
